@@ -2,14 +2,17 @@ function prime(number){
 
 let factor=0;
 
-for(let i=0;i<=number;i++){
+for(let i=1;i<=number;i++){
 if(number%i==0){
 factor++
 }
 }
 
 if(count===2){
-return true
+
+return true;
+
+
 }
 else{
 return false
