@@ -8,11 +8,11 @@ count++;
 }
 }
 
-if(count<2){
-return true;
+if(count===2){
+return true
 }
 else{
-return false;
+return false
 }
 
 }
